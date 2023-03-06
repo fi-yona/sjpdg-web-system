@@ -94,5 +94,8 @@
                 useFooter();
             ?>
         </footer>
+        <?php
+            firebaseSDK();
+        ?>
 	</body>
 </html>
