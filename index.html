@@ -7,27 +7,24 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
-        <?php 
-			include_once("function.php");
-		?>
-		<header>
-            <?php
-                useHeader();
-            ?>
+        <header>
+            <center>
+                <h1><img src="assets/img/logo-horizontal.png" class="logo-header"></h1>
+            </center>
             <nav class="nav-home">
                 <ul class="nav-home-ul">
                     <li><a href="#home-section">Home</a></li>
                     <li><a href="#about-us-section">About Us</a></li>
                     <li><a href="#online-shop-section">Online Shop</a></li>
                     <li><a href="#contact-section">Contact</a></li>
-                    <li><a href="login.php"><button type="button" class="btn-log-in-home">Log In</button></a></li>
+                    <li><a href="login.html"><button type="button" class="btn-log-in-home">Log In</button></a></li>
                 </ul>
             </nav>
         </header>
         <main>
             <div id="home-section" class="home-section">
                 <img src="assets/img/home-img.png" class="home-img">
-                <p>Welcome to Our SINAR JAYA PADANG’s System</p>
+                <p>Welcome to Our SINAR JAYA PADANG's System</p>
             </div>
             <div id="about-us-section" class="about-us-section">
                 <h2>About Us</h2>
@@ -90,12 +87,11 @@
             </div>
         </main>
         <footer>
-            <?php
-                useFooter();
-            ?>
+            <center>
+                <div class="footer">
+                    Copyright UD Sinar Jaya Padang (IT Departement) - 2023
+                </div>
+            </center>  
         </footer>
-        <?php
-            firebaseSDK();
-        ?>
 	</body>
 </html>
