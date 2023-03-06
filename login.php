@@ -15,5 +15,8 @@
                 useHeader();
             ?>
         </header>
+        <?php
+            firebaseSDK();
+        ?>
     </body>
 </html>
